@@ -1,0 +1,62 @@
+<!--
+   Hypertext Markup Leanguage = HTML
+-->
+
+<!-- 
+   Anatomia das tags
+   - Abertura de tags
+   - Fechamento de tags
+   - Conteúdo 
+   - Elementos  
+-->
+<h1>
+   O título
+</h1>
+<!-- Elementos Vazios (Não tem fechamento)-->
+<img src="" alt=""> 
+<input type="text"> 
+<!-- 
+   Atributos HTML
+   - infos extras
+   - configs
+-->
+<img src="conteudo" alt="texto">
+<!--
+   Atributos booleanos
+   - não precisam de conteúdo
+-->
+<input type="text" disabled>
+<!--
+   Aspas
+   - omissão
+   - simples
+   - dupla
+-->
+<a href="https://google.com.br">link</a>
+<a href="" title= isn't >link</a>
+
+<!--
+   Atributos globais mais usados
+   - class
+   - contenteditable
+   - data-*
+   - hidden
+   - id
+   - style
+   - tabindex
+   - title
+-->
+
+<div class="carrinho"contenteditable=true id="cart1" tabindex="1"
+title="Definir um título">
+edite isso
+   </div>
+
+<div class="carrinho" data-id="" id="cart2" style="color: red;">
+conteúdo
+   </div>
+
+<div class="carrinho" hidden>
+ conteúdo
+   </div>
+ 
